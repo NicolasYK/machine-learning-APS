@@ -156,7 +156,7 @@ def showSingleImage(img, title, size):
     plt.show()
 
 # Carregando uma imagem e exibindo-a
-img_name = "C:\\Users\\kosak\\Documents\\Deep_Learning-APS\\CNN_APS\\DATASET\\validation\\no_deforestation\\imagem_020.png"
+img_name = "..\\DATASET\\validation\\no_deforestation\\imagem_020.png"
 def_img = cv2.imread(img_name)
 def_img = cv2.cvtColor(def_img, cv2.COLOR_BGR2RGB)
 showSingleImage(def_img, "Teste de mesa", (12, 8))
