@@ -14,29 +14,39 @@ Devido a esse desafio, após a aplicação dos filtros, foi proposto a nós o de
 Conforme descrito anteriormente, o primeiro projeto envolveu apenas o uso de filtros para detectar padrões de desmatamento. Dado que este repositório tem como foco principal o uso de redes neurais, decidimos disponibilizar apenas o código fonte da rede.
 
 ## 🧰 Ferramentas utilizadas
-Segue de forma simples uma checklist e uma breve descrição sobre a ferramenta:
+Segue de forma simples uma lista e uma breve descrição sobre a ferramenta:
 
-### 🐍 Python
-O foco do uso desta linguagem está no fato que possui uma grande biblioteca, facilitando a implementação de recursos como o processamento de imagem e nas redes da inteligência artificial.
+- 🐍 **Python** </br>
+O foco do uso desta linguagem está no fato que possui uma grande biblioteca, facilitando a implementação de recursos como o processamento de imagem e nas redes neurais.
 
-### 🌎 Qgis 
-Software Open-Source focado em análise, visualização e georreferência, contudo foi utilizado para mesclar camadas das imagens via satélite.
+- 🗺️ **IMPE - site** </br>
+Foram retirados imagens do satélite Amazonia1 e entre outros disponíveis através do site [oficial dele](http://www.dgi.inpe.br/catalogo/explore).
 
-### 🤖 Tensorflow & Keras
+- 🌎 **Qgis - software** </br>
+Software Open-Source focado em análise, visualização e georreferência, contudo foi utilizado para mesclar camadas das imagens via satélite.</br>
+É possível acessar o [site por aqui](https://qgis.org/pt_BR/site/).
+
+#### 📚 Bibliotecas utilizadas
+
+- 🤖 **Tensorflow & Keras** </br>
 Biblioteca de código aberto focado em aprendizado de máquina e Keras consegue rodar em cima de Tensorflow, permitindo uma maior agilidade e praticidade na construção de redes profundas. Facilitando o desenvolvimento do projeto.
 
-### 📈 Matplotlib
+- 📊 **Matplotlib** </br>
 Matplot é capaz de gerar inúmeros gráficos, até mesmo gráficos animados, neste sentido foi utilizado o Matplot para gerar gráficos e resultados obtidos através das imagens.
 
-### 🧮 Numpy
+- 🧮 **Numpy** </br>
 Focada em calculos e operações matemáticas, foi utilizada para criar matrizes com o foco de exibir as imagens e fazendo a predição da rede.
 
-### 🖼️ OpenCV
+- 🖼️ **OpenCV** </br>
 Utilizada no processamento de imagens, visão computacional e no uso do aprendizado de máquina.
 </br>
 Foi utilizada para carregar as imagens e exibir nos gráficos.
 
-### 💻 OS
+- 💻 **OS** </br>
 Biblioteca padrão do Python ela oferece as funcionalidades que integram o sistema operacional.
 </br>
 Seu principal uso está na implementação do dataset.
+
+## 📈 Resultados e conclusões.
+
+## 👀 Observação
